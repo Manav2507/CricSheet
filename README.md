@@ -53,7 +53,7 @@ The project aims to process, analyze, and visualize cricket match data available
      - Win/loss analyses across formats.
 
 ## Project Deliverables
-1. **Python Code:** Scripts for Selenium scraping, JSON-to-DataFrame transformation, and SQL operations.
+1. **Python Code:** JSON-to-DataFrame transformation, and SQL operations.
 2. **SQL Database:** A database schema with structured tables.
 3. **SQL Query File:** Document containing 20 SQL queries.
 4. **EDA Visualizations:** Graphs and insights using Python libraries.
