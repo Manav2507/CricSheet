@@ -67,7 +67,6 @@ The goal is to process, analyze, and visualize cricket match data from Cricsheet
 
 ## Tools and Technologies
 - **Programming:** Python (Pandas, Matplotlib, Seaborn, Plotly)
-- **Web Scraping:** Selenium
 - **Database:** MySQL/SQLite
 - **Visualization:** Power BI
 - **Data Format:** JSON
@@ -77,9 +76,3 @@ The goal is to process, analyze, and visualize cricket match data from Cricsheet
 ## Resources
 - **CSV File and Database:** [Download here](https://drive.google.com/drive/folders/1AerrgbHzQ52Q8-RH3J0m17hsEFEaN2Zx?usp=sharing)
 
----
-
-## Installation and Usage
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
