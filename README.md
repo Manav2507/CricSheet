@@ -97,15 +97,6 @@ This project aims to bridge raw match JSON files and analytical dashboards by bu
 
 ---
 
-## 📦 Project Deliverables
-
-- ✅ Python scripts for data transformation and insertion
-- ✅ SQL schema and 20+ analysis queries
-- ✅ EDA visuals (Python)
-- ✅ Power BI `.pbix` dashboard
-- ✅ Project documentation/report
-
----
 
 ## 📸 Screenshots / Demo
 
