@@ -6,8 +6,8 @@ This project analyzes international cricket match data (Test, ODI, and T20 forma
 ## 📸 Demo Screenshots
 
 ![Preview](https://github.com/Manav2507/CricSheet/blob/main/test_das.png)
-![Preview](https://github.com/Manav2507/CricSheet/blob/main/t20_das.png)
-![Preview](https://github.com/Manav2507/CricSheet/blob/main/odi_das.png)
+![Preview](https://github.com/Manav2507/CricSheet/blob/main/t20_des.png)
+![Preview](https://github.com/Manav2507/CricSheet/blob/main/odi_des.png)
 
 ## 📌 Overview
 
