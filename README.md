@@ -1,78 +1,110 @@
-# Cricsheet Match Data Analysis
+# 🏏 Cricsheet Match Data Analysis
 
-## Overview
-This project involves analyzing cricket match data from the [Cricsheet website](https://cricsheet.org/matches/), focusing on processing, storing, and visualizing data to uncover key insights. By utilizing tools such as Python, SQL, and Power BI, the project demonstrates the integration of data processing and visualization techniques for sports analytics.
-
----
-
-## Skills Gained
-- **Data Processing (Python):** Transform raw JSON files into structured formats using Pandas.
-- **Database Management (SQL):** Design tables, insert data, and write optimized queries.
-- **Data Analysis (SQL):** Extract insights with analytical queries.
-- **Visualization (Power BI):** Build interactive dashboards for storytelling and decision-making.
-- **Data Preprocessing:** Clean and organize raw JSON data into meaningful structures.
+This project analyzes international cricket match data (Test, ODI, and T20 formats) from [Cricsheet.org](https://cricsheet.org), focusing on transforming raw JSON files into structured databases and powerful dashboards for actionable insights.
 
 ---
 
-## Domain
-**Sports Analytics / Data Analysis**
+## 📌 Overview
+
+- ⛏️ Extracted and processed real-world JSON cricket data using Python
+- 🛢️ Built a SQL database to store normalized data efficiently
+- 📈 Created SQL queries to uncover performance and match-based trends
+- 📊 Developed interactive dashboards using Power BI for storytelling and decision-making
 
 ---
 
-## Problem Statement
-The goal is to process, analyze, and visualize cricket match data from Cricsheet. The project involves downloading match data in JSON format, processing it with Python, storing it in SQL databases, and building Power BI dashboards for analysis.
+## 🎯 Problem Statement
+
+> **How can raw cricket match data be transformed into structured insights for analysts, broadcasters, and fans?**
+
+This project aims to bridge raw match JSON files and analytical dashboards by building a complete ETL + analysis + visualization pipeline.
 
 ---
 
-## Approach
-1. **Data Downloading:**
-   - Download JSON files for Test, ODI, and T20 match formats.
+## ⚙️ Approach
 
-2. **Data Transformation:**
-   - Parse and normalize JSON files using Python and Pandas.
-   - Create structured DataFrames for each match format.
+### 📥 1. Data Acquisition
 
-3. **Database Management:**
-   - Create a SQL database (MySQL/SQLite) with tables for each match type.
-   - Populate the tables with cleaned data using Python's database connectors.
+- Downloaded JSON match files for:
+  - Test Matches
+  - One Day Internationals (ODIs)
+  - T20 Internationals
 
-4. **SQL Queries for Analysis:**
-   - Write 10+ queries to extract insights:
-     - Top 10 batsmen by total runs in ODI matches.
-     - Leading wicket-takers in T20 matches.
-     - Teams with the highest win percentages.
-     - Matches with the narrowest victory margins.
+### 🔄 2. Data Transformation (Python)
 
-5. **Exploratory Data Analysis (EDA):**
-   - Visualize data trends using Python libraries like Matplotlib and Seaborn.
+- Parsed nested JSONs using `json` and `pandas`
+- Normalized key stats like:
+  - Player performance (runs, wickets)
+  - Match outcomes
+  - Ball-by-ball details
 
-6. **Power BI Dashboard:**
-   - Connect Power BI to the SQL database.
-   - Build interactive dashboards showcasing:
-     - Player performance trends.
-     - Match outcomes by teams.
-     - Win/loss analyses across formats.
+### 🗃️ 3. SQL Database Design
+
+- Created schema for storing:
+  - Match Info
+  - Player Stats
+  - Team Summaries
+- Inserted transformed data using `sqlite3` / `mysql.connector`
+
+### 🔍 4. SQL Analysis
+
+> Sample Queries:
+- 🏏 Top 10 batsmen by ODI runs
+- 🎯 Best T20 wicket-takers
+- 🧮 Teams with highest win ratios
+- 🔥 Closest victory margins
+- ⏱️ Longest matches by duration
+
+### 📊 5. Visualizations
+
+#### a. Python EDA
+- Used `Matplotlib`, `Seaborn`, `Plotly` for:
+  - Run rate trends
+  - Player performance over time
+  - Format-based comparisons
+
+#### b. Power BI Dashboard
+- Connected to SQL database
+- Built dashboard with:
+  - Win/Loss Heatmaps
+  - Player and Team Analytics
+  - Format-wise performance trends
 
 ---
 
-## Project Deliverables
-1. **Python Code:** JSON-to-DataFrame transformation and SQL operations.
-2. **SQL Database:** A database schema with structured tables.
-3. **SQL Query File:** A document containing 20 SQL queries.
-4. **EDA Visualizations:** Graphs and insights created with Python libraries.
-5. **Power BI Dashboard:** An interactive `.pbix` file.
-6. **Documentation:** A detailed project report.
+## 💡 Skills Demonstrated
+
+- **Python**: JSON parsing, data wrangling
+- **SQL**: Schema design, analytical queries
+- **Power BI**: Dashboard development
+- **EDA**: Visual storytelling, pattern recognition
 
 ---
 
-## Tools and Technologies
-- **Programming:** Python (Pandas, Matplotlib, Seaborn, Plotly)
-- **Database:** MySQL/SQLite
-- **Visualization:** Power BI
-- **Data Format:** JSON
+## 🧰 Tools & Tech Stack
+
+| Category         | Tools Used                             |
+|------------------|-----------------------------------------|
+| Programming      | Python (Pandas, JSON, Plotly, Seaborn)  |
+| Database         | MySQL / SQLite                          |
+| Visualization    | Power BI                                |
+| Data Format      | JSON (from Cricsheet.org)               |
 
 ---
 
-## Resources
-- **CSV File and Database:** [Download here](https://drive.google.com/drive/folders/1AerrgbHzQ52Q8-RH3J0m17hsEFEaN2Zx?usp=sharing)
+## 📦 Project Deliverables
 
+- ✅ Python scripts for data transformation and insertion
+- ✅ SQL schema and 20+ analysis queries
+- ✅ EDA visuals (Python)
+- ✅ Power BI `.pbix` dashboard
+- ✅ Project documentation/report
+
+---
+
+## 📸 Screenshots / Demo
+
+> Add 2–3 images of:
+- The Power BI dashboard
+- Sample SQL query results
+- Python EDA visuals
