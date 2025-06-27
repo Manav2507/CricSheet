@@ -3,6 +3,11 @@
 This project analyzes international cricket match data (Test, ODI, and T20 formats) from [Cricsheet.org](https://cricsheet.org), focusing on transforming raw JSON files into structured databases and powerful dashboards for actionable insights.
 
 ---
+## 📸 Demo Screenshots
+
+![Preview](https://github.com/Manav2507/CricSheet/blob/main/test_das.png)
+![Preview](https://github.com/Manav2507/CricSheet/blob/main/t20_das.png)
+![Preview](https://github.com/Manav2507/CricSheet/blob/main/odi_das.png)
 
 ## 📌 Overview
 
